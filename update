@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Description du commit : " desc
+git add . && \
+git add -u && \
+git commit -m "$desc" && \
+git push mlefort master
